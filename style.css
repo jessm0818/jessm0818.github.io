@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
 
-body {
+#homepage {
     background-image: url("nara1.jpg");
     background-size: cover;
 }
@@ -17,29 +17,35 @@ body {
       margin-top: 800px;
       letter-spacing: 1px;
       line-height: 0.2;
-      font-size: 30
+      font-size: 50
 }
 
-.narasignature-img {
+/* .narasignature-img {
     position: relative;
     top: -800px;
     left: 2100px;
     height: auto;
     width: 200px;
-}
+} */
 
 .dropdownbutton {
  background-image: url("narasignature.png");
- color: clear;
- padding: 50px;
+ background-size: 100% 100%;
+ background-position: center;
+ width: 400px;
+ padding: 100px;
  font-size: 16px;
+ background-color: transparent;
  cursor: pointer;
  border: none;
+ position: relative;
 }
 
 .dropdown {
-    position: relative;
+    position: absolute;
     display: inline-block;
+    right: 0;
+    top: 0;
 }
 
 .dropdowncontent {
@@ -52,10 +58,17 @@ body {
 }
 
 .dropdowncontent a {
-    color: black;
+    color: gray;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    font-family: "Instrument Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+
 }
 
 .dropdown:hover .dropdowncontent {display: block;}
