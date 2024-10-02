@@ -1,7 +1,7 @@
 body {
     background-color: rgb(237, 233, 224);
     align-items: center;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -15,9 +15,11 @@ body {
     font-variation-settings:
       "wdth" 100;
       color: saddlebrown;
+    
 }
 
 .naragrid {
+    margin-left: calc(50vw - 240px);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
@@ -30,8 +32,6 @@ body {
     height: auto;
     border-radius: 5px;
     object-fit: cover;
-   
-
 }
 
 .dropdownbutton {
@@ -78,3 +78,18 @@ body {
    }
    
    .dropdown:hover .dropdowncontent {display: block;}
+
+   .paragraph {
+    width: 480px;
+    margin-top: 50px;
+    margin-left: calc(50vw - 240px);
+    text-indent: 20px;
+   }
+
+   .title {
+    font-size: 50;
+    width: 480px;
+    margin-top: 50px;
+    margin-left: calc(55vw - 240px);
+    text-indent: 20px;
+   }
