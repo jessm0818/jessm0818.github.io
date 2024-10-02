@@ -1,13 +1,5 @@
 body {
     background-color: rgb(237, 233, 224);
-    align-items: center;
-    /* display: flex; */
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    /* margin: 0;
-    padding: 0; */
-    box-sizing: border-box;
     font-family: "Instrument Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -15,27 +7,11 @@ body {
     font-variation-settings:
       "wdth" 100;
       color: saddlebrown;
-    
-}
-
-.naragrid {
-    margin-left: calc(50vw - 240px);
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    width: 100vh;
-    max-width: 475px
-}
-
-.naragrid img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-    object-fit: cover;
+      font-size: 60px;
 }
 
 .dropdownbutton {
-    background-image: url("narasignature.png");
+    background-image: url("./narasignature.png");
     background-size: 100% 100%;
     background-position: center;
     width: 400px;
@@ -74,22 +50,29 @@ body {
        font-style: normal;
        font-variation-settings:
          "wdth" 100;
-   
    }
    
    .dropdown:hover .dropdowncontent {display: block;}
 
-   .paragraph {
-    width: 480px;
-    margin-top: 50px;
-    margin-left: calc(50vw - 240px);
-    text-indent: 20px;
-   }
+.naradevil {
+    background-image: url(naraplus.png);
+    width: 200px;
+    height: 200px;
+    animation: switch 500ms steps(2) infinite;
+    animation-play-state: paused;
+}
 
-   .title {
-    font-size: 50;
-    width: 480px;
-    margin-top: 50px;
-    margin-left: calc(55vw - 240px);
-    text-indent: 20px;
-   }
+.naradevil:hover {
+    cursor: pointer;
+    animation: switch 500ms steps(2) infinite;
+    animation-play-state: play;
+}
+
+@keyframes switch {
+    from {
+        background-position: 0% 0%;
+    }
+    to {
+        background-position: -100% 0%;
+    }
+    }
