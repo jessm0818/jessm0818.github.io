@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(237, 233, 224);
+    align-items: center;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+    font-family: "Instrument Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+      color: saddlebrown;
+    
+}
+
+.naragrid {
+    margin-left: calc(50vw - 240px);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 100vh;
+    max-width: 475px
+}
+
+.naragrid img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.dropdownbutton {
+    background-image: url("narasignature.png");
+    background-size: 100% 100%;
+    background-position: center;
+    width: 400px;
+    padding: 100px;
+    font-size: 16px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    position: relative;
+   }
+   
+   .dropdown {
+       position: absolute;
+       display: inline-block;
+       right: 0;
+       top: 0;
+   }
+   
+   .dropdowncontent {
+       display: none;
+       position: absolute;
+       background-color: clear;
+       min-width: 100px;
+       box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+       z-index: 1;
+   }
+   
+   .dropdowncontent a {
+       color: gray;
+       padding: 12px 16px;
+       text-decoration: none;
+       display: block;
+       font-family: "Instrument Sans", sans-serif;
+       font-optical-sizing: auto;
+       font-weight: 700;
+       font-style: normal;
+       font-variation-settings:
+         "wdth" 100;
+   
+   }
+   
+   .dropdown:hover .dropdowncontent {display: block;}
+
+   .paragraph {
+    width: 480px;
+    margin-top: 50px;
+    margin-left: calc(50vw - 240px);
+    text-indent: 20px;
+   }
+
+   .title {
+    font-size: 50;
+    width: 480px;
+    margin-top: 50px;
+    margin-left: calc(55vw - 240px);
+    text-indent: 20px;
+   }
