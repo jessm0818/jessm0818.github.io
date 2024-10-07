@@ -15,6 +15,7 @@ body {
     font-variation-settings:
       "wdth" 100;
       color: saddlebrown;
+      font-size: 20px;
     
 }
 
@@ -84,12 +85,27 @@ body {
     margin-top: 50px;
     margin-left: calc(50vw - 240px);
     text-indent: 20px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
    }
 
    .title {
     font-size: 50;
     width: 480px;
     margin-top: 50px;
-    margin-left: calc(55vw - 240px);
+    margin-left: calc(53vw - 230px);
     text-indent: 20px;
+    padding-bottom: 30px;
    }
+
+    .nara1-image {
+        max-width: 300px;
+        width: 100%;
+        margin-top: 50px;
+        margin-left: calc(53vw - 230px);
+        transition: transform 0.5s ease;
+   }
+   
+   .nara1-image:hover {
+    transform: scale(2);
+}
