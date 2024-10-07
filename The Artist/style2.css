@@ -70,33 +70,31 @@ body {
     max-width: 700px;
     width: 100%;
     margin-top: 50px;
-    margin-left: calc(45vw - 240px);
+    margin-left: calc(50vw - 240px);
     transition: transform (3s) ease;
 }
 
 .yoshitomo1-img:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 .yoshitomo-img {
     max-width: 700px;
     width: 100%;
-    margin-top: 50px;
-    margin-left: calc(45vw - 240px);
+    margin-left: calc(50vw - 240px);
     transition: transform (3s) ease;
 }
 
 .yoshitomo-img:hover {
-    transform: scale(1.5);
+    transform: scale(1.21);
 }
 
 .paragraph {
     width: 480px;
     margin-top: 50px;
-    margin-left: calc(51vw - 240px);
+    margin-left: calc(53vw - 240px);
     text-indent: 20px;
     font-size: 20px;
-    margin-bottom: 50px;
     padding-bottom: 50px;
 }
 
