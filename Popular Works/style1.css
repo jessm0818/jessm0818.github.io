@@ -93,7 +93,7 @@ body {
     font-size: 50;
     width: 480px;
     margin-top: 50px;
-    margin-left: calc(53vw - 230px);
+    margin-left: calc(53vw - 240px);
     text-indent: 20px;
     padding-bottom: 30px;
    }
@@ -101,7 +101,6 @@ body {
     .nara1-image {
         max-width: 300px;
         width: 100%;
-        margin-top: 50px;
         margin-left: calc(53vw - 230px);
         transition: transform 0.5s ease;
    }
