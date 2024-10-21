@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+
+.coming-soon-regular {
+    font-family: "Coming Soon", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    height: 60vh;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #homepage {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes horizontal-shaking {
+  0% { transform: translateX(0)}
+  25% { transform: translateX(5px)}
+  50% { transform: translateX(-5px)}
+  75% { transform: translateX(5px)}
+  100% { transform: translateX(0px)}
+}
+
+.lightcontainer {
+  margin-bottom: 20px;
+}
+
+.bulb:hover {
+  animation: horizontal-shaking 0.75s infinite;
+}
+
+.bulb {
+  width: 20vw;
+  height: 20vh;
+  background: url('lightoff.png') no-repeat top center;
+  background-size: contain;
+  cursor: pointer;
+  position: fixed; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bulb:active {
+  background: url('lighton.png') no-repeat top center;
+  background-size: contain;
+}
+
+.smiski-container {
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: space-evenly;
+  height: 80vh;
+  width: 90vh;
+}
+
+.smiski {
+  position: relative;
+  width: 100px;
+  height: 150px;
+  background-size: contain;
+  margin: 0 10px;
+}
+
+.lightcontainer:active ~ .smiski-container > #smiski1 {
+  background: url('scared.png') no-repeat center center;
+  background-size: contain;
+}
+
+.lightcontainer:active ~ .smiski-container > #smiski1 > img { 
+  opacity: 0;
+}
+
+.lightcontainer:active ~ .smiski-container > #smiski2 {
+  background: url('hiding.png') no-repeat center center;
+  background-size: contain;
+}
+
+.lightcontainer:active ~ .smiski-container > #smiski2 > img { 
+  opacity: 0;
+}
+
+.lightcontainer:active ~ .smiski-container > #smiski3 {
+  background: url('teddy.png') no-repeat center center;
+  background-size: contain;
+}
+
+.lightcontainer:active ~ .smiski-container > #smiski3 > img { 
+  opacity: 0;
+}
+
+#smiski1 {
+  overflow: hidden;
+}
+
+#smiski2 {
+  overflow: hidden;
+}
+
+#smiski3 {
+  overflow: hidden;
+}
+
+/* @media (max-width: 768px) {
+.smiski3 {
+  display: none;
+}
+}
+
+@media (max-width: 480px) {
+.smiski2 {
+    display: none;
+  }
+} */
