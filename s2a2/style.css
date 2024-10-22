@@ -7,10 +7,11 @@
     font-style: normal;
     color: white;
     height: 60vh;
-    font-size: 30px;
+    font-size: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
+    unicode-bidi: isolate;
   }
 
   #homepage {
@@ -34,6 +35,9 @@
 
 .lightcontainer {
   margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .bulb:hover {
@@ -41,8 +45,9 @@
 }
 
 .bulb {
-  width: 20vw;
-  height: 20vh;
+  top: 0;
+  width: 500px;
+  height: 200px;
   background: url('lightoff.png') no-repeat top center;
   background-size: contain;
   cursor: pointer;
@@ -63,7 +68,8 @@
   align-items: center;
   justify-content: space-evenly;
   height: 80vh;
-  width: 90vh;
+  width: 120vh;
+  unicode-bidi: isolate;
 }
 
 .smiski {
@@ -75,52 +81,81 @@
 }
 
 .lightcontainer:active ~ .smiski-container > #smiski1 {
-  background: url('scared.png') no-repeat center center;
+  background: url('scream.png') no-repeat center center;
   background-size: contain;
 }
 
 .lightcontainer:active ~ .smiski-container > #smiski1 > img { 
   opacity: 0;
+  width: 400px;
+  height: 400px;
 }
 
 .lightcontainer:active ~ .smiski-container > #smiski2 {
-  background: url('hiding.png') no-repeat center center;
+  background: url('teddy.png') no-repeat center center;
   background-size: contain;
 }
 
 .lightcontainer:active ~ .smiski-container > #smiski2 > img { 
   opacity: 0;
+  display: block;
+  unicode-bidi: isolate;
+  width: 400px;
+  height: 400px;
+  
 }
 
 .lightcontainer:active ~ .smiski-container > #smiski3 {
-  background: url('teddy.png') no-repeat center center;
+  background: url('naptime.png') no-repeat center center;
   background-size: contain;
 }
 
 .lightcontainer:active ~ .smiski-container > #smiski3 > img { 
   opacity: 0;
+  width: 450px;
+  height: 500px;
 }
 
 #smiski1 {
   overflow: hidden;
+  display: block;
+  unicode-bidi: isolate;
 }
 
 #smiski2 {
   overflow: hidden;
+  display: block;
+  unicode-bidi: isolate;
 }
 
 #smiski3 {
   overflow: hidden;
+  display: block;
+  unicode-bidi: isolate;
 }
 
-/* @media (max-width: 768px) {
-.smiski3 {
+@media (max-width: 1500px) {
+#smiski3 {
   display: none;
 }
 }
 
-@media (max-width: 480px) {
-.smiski2 {
+@media (max-width: 1000px) {
+#smiski2 {
     display: none;
   }
-} */
+}
+
+@media (max-width: 0px) {
+#smiski1 {
+  display: none;
+}
+}
+
+#homepage:active {
+  background-color: rgb(225, 225, 168);
+}
+
+#homepage:active .coming-soon-regular {
+  opacity: 0;
+}
