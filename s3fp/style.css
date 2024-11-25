@@ -1,0 +1,27 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#Title {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  pointer-events: none;
+}
+
+#Instructions {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  pointer-events: none;
+}
