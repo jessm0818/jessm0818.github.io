@@ -2,6 +2,7 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
 canvas {
   display: block;
   position: fixed;
@@ -12,16 +13,54 @@ canvas {
 
 #Title {
   position: fixed;
+  width: 1000px;
   top: 0;
-  left: 0;
+  left: calc(50vw - 500px);
+  /* width: clamp(300px, 75%, 1000px); */
+  z-index: 2;
+  pointer-events: none;
+  margin-top: 20px;
+} 
+
+#Title > img {
+  width: 100%;
+}
+
+#Instruction {
+  position: fixed;
+  width: 700px;
+  top: 0;
+  left: calc(50vw - 350px);
+  margin-top: 160px;
   z-index: 2;
   pointer-events: none;
 }
 
-#Instructions {
-  position: fixed;
-  top: 175px;
-  left: 300px;
+#Instruction > img {
+  width: 100%;
+}
+
+#Instruction:hover {
+  animation: horizontal-shaking 1s infinite;
+}
+
+@keyframes horizontal-shaking {
+  0% { transform: translateX(0)}
+  25% { transform: translateX(10px)}
+  50% { transform: translateX(-10px)}
+  75% { transform: translateX(10px)}
+  100% { transform: translateX(0px)}
+}
+
+/* .Instructions {
+  margin-top: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   z-index: 2;
   pointer-events: none;
+}
+
+.Instruction:hover {
+  animation: horizontal-shaking 0.75s infinite;
 }
