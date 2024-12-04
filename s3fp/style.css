@@ -40,27 +40,28 @@ canvas {
   width: 100%;
 }
 
-#Instruction:hover {
-  animation: horizontal-shaking 1s infinite;
+.Refresh {
+  text-align: center;
 }
 
-@keyframes horizontal-shaking {
-  0% { transform: translateX(0)}
-  25% { transform: translateX(10px)}
-  50% { transform: translateX(-10px)}
-  75% { transform: translateX(10px)}
-  100% { transform: translateX(0px)}
-}
-
-/* .Instructions {
-  margin-top: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.Refresh-Button {
+  background: url('ResetCAPITAL.png') no-repeat top center;
+  background-size: contain;
+  bottom: 0;
+  left: calc(50vw - 0px);
+  margin-bottom: 175px;
+  position: fixed;
   z-index: 2;
-  pointer-events: none;
+  scale: 3000%;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
 }
 
-.Instruction:hover {
-  animation: horizontal-shaking 0.75s infinite;
+.Refresh-Button:hover {
+  transform: scale(1.40);
+}
+
+.Refresh-Button:active {
+  transform: scale(0.90);
 }
