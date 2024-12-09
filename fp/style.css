@@ -1,0 +1,111 @@
+body {
+  position: relative;
+  width: 1080px;
+  height: 1080px;
+  background-color: #655905;
+  font-family: 'Inria Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 40px;
+   line-height: 48px;
+   text-align: center;
+   color: #ffffff;
+   position: fixed;
+   width: 1000px;
+   top: 0;
+   left: calc(50vw - 500px);
+ }
+ 
+ .Grid {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 20px;
+   padding: 30px;
+   justify-content: center;
+   align-items: center;
+   max-width: 300px;
+   max-height: 300px;
+   margin: 0 auto;
+   
+ }
+ 
+ .grid-1 {
+   background-color: #b5651d;
+   color: #fff;
+   padding: 20px;
+   text-decoration: none;
+   border-radius: 8px;
+   transition: transform 0.2s;
+ }
+
+ .grid-2 {
+  background-color: #FFF334;
+  color: #fff;
+  padding: 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.grid-3 {
+  background-color: #DC540C;
+  color: #fff;
+  padding: 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+ 
+ .grid-1:hover {
+   transform: scale(1.05);
+ }
+
+ .grid-2:hover {
+  transform: scale(1.05);
+}
+
+.grid-3:hover {
+  transform: scale(1.05);
+}
+ 
+ .Readings {
+   max-width: 500px;
+   max-height: 500px;
+   margin: 0 auto;
+   padding: 210px;
+   
+ }
+ 
+ .read-disc {
+   background-color: #762D06;
+   color: #fff;
+   padding: 20px;
+   text-decoration: none;
+   border-radius: 8px;
+ }
+ 
+ .read-disc:hover {
+   max-width: 600px;
+   margin: 0 auto;
+ }
+
+ #Lucky {
+  scale: 50%;
+  top: -380px;
+  position: relative;
+ }
+
+ /* .grid-1 > div {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 10px;
+  border: 1px solid black;
+  line-height: 10px;
+ }
+
+ .grid-1:hover > div {
+  display: block;
+ }
+  */

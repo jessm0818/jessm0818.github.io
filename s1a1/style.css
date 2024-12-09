@@ -1,0 +1,25 @@
+p {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom; 20px; 
+  }
+  
+  #head {
+    color: brown;
+  }
+  
+  #temple {
+    color: darkorange;
+  }
+  
+  #body {
+    color: yellow;
+  }
+  
+  #lowerbody {
+    color: darkgreen;
+  }
+  
+  #tail {
+    color: darkblue;
+  }
