@@ -1,7 +1,5 @@
 body {
   position: relative;
-  width: 1080px;
-  height: 1080px;
   background-color: #655905;
   font-family: 'Inria Sans';
    font-style: normal;
@@ -14,19 +12,24 @@ body {
    width: 1000px;
    top: 0;
    left: calc(50vw - 500px);
+  margin-top: 30px;
  }
  
+ #homepage {
+  background-image: url("gradient-image.png");
+  background-size: cover;
+}
+
  .Grid {
    display: grid;
-   grid-template-columns: repeat(3, 1fr);
+   grid-template-columns: repeat(1, 1fr);
    gap: 20px;
-   padding: 30px;
+   padding: 15px;
    justify-content: center;
    align-items: center;
-   max-width: 300px;
-   max-height: 300px;
+   max-width: 500px;
+   max-height: 230px;
    margin: 0 auto;
-   
  }
  
  .grid-1 {
@@ -69,11 +72,13 @@ body {
 }
  
  .Readings {
+   position: relative;
+   top: 750px;
+   justify-content: center;
+   align-items: center;
    max-width: 500px;
-   max-height: 500px;
+   max-height: 230px;
    margin: 0 auto;
-   padding: 210px;
-   
  }
  
  .read-disc {
@@ -83,16 +88,20 @@ body {
    text-decoration: none;
    border-radius: 8px;
  }
- 
- .read-disc:hover {
-   max-width: 600px;
-   margin: 0 auto;
- }
 
  #Lucky {
   scale: 50%;
-  top: -380px;
+  top: -200px;
   position: relative;
+  left: 500px;
+ }
+
+ #Lucky1 {
+  top: -1100px;
+  scale: 50%;
+  position: relative;
+  right: 500px;
+  transform: scaleX(-1);
  }
 
  /* .grid-1 > div {

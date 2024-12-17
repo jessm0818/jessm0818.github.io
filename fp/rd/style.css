@@ -1,10 +1,10 @@
 body {
     position: relative;
-    background: linear-gradient(180deg, #FFF334 0%, #DC540C 26%, #FFF334 50%, #762D06 73.5%, #655905 100%);
+    background: linear-gradient(180deg, #FFF334 0%, #DC540C 20%, #FFF334 40%, #bd4d11 60%, #FFF334 80%, #655905 100%);
     font-family: 'Inria Sans';
      font-style: normal;
      font-weight: 400;
-     font-size: 30px;
+     font-size: 35px;
      line-height: 30px;
      text-align: center;
      color: #000000;
@@ -18,16 +18,26 @@ body {
      color: #fff;
      padding: 20px;
      text-decoration: none;
-     border-radius: 8px;
-     transition: transform 0.2s;
+     border-radius: 210px;
+     font-size: 30px;
    }
    
    .read-disc {
      background-color: #b5651d;
      color: #fff;
-     padding: 20px;
+     padding: 10px;
      text-decoration: none;
      border-radius: 8px;
-     transition: transform 0.2s;
    }
-   
+
+#Title {
+  margin-top: 30px;
+  font-size: 50px;
+}
+
+#Lucky1 {
+  scale: 40%;
+  position: relative;
+  right: -750px;
+  top: -9300px;
+}
