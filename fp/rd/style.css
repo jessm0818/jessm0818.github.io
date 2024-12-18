@@ -11,6 +11,7 @@ body {
      width: 1000px;
      top: 0;
      left: calc(50vw - 500px);
+     overflow-x: hidden;
    }
    
    .Fp {
