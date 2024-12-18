@@ -106,6 +106,12 @@ body {
   transform: scaleX(-1);
  }
 
+ @media (max-height: 1500px) {
+#homepage {
+    padding: 10px;
+  }
+ }
+
  /* .grid-1 > div {
   display: none;
   position: absolute;
