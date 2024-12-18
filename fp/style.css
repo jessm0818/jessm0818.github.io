@@ -13,6 +13,8 @@ body {
    top: 0;
    left: calc(50vw - 500px);
   margin-top: 30px;
+  max-width: 1440px;
+  max-height: 900px;
  }
  
  #homepage {
