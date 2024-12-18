@@ -4,8 +4,8 @@ body {
   font-family: 'Inria Sans';
    font-style: normal;
    font-weight: 400;
-   font-size: 40px;
-   line-height: 23px;
+   font-size: 35px;
+   line-height: 10px;
    text-align: center;
    color: #ffffff;
    position: fixed;
@@ -73,7 +73,7 @@ body {
  
  .Readings {
    position: relative;
-   top: 530px;
+   top: 415px;
    justify-content: center;
    align-items: center;
    max-width: 500px;
