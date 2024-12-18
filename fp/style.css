@@ -5,7 +5,7 @@ body {
    font-style: normal;
    font-weight: 400;
    font-size: 40px;
-   line-height: 48px;
+   line-height: 23px;
    text-align: center;
    color: #ffffff;
    position: fixed;
@@ -13,8 +13,6 @@ body {
    top: 0;
    left: calc(50vw - 500px);
   margin-top: 30px;
-  max-width: 1440px;
-  max-height: 900px;
  }
  
  #homepage {
@@ -26,7 +24,7 @@ body {
    display: grid;
    grid-template-columns: repeat(1, 1fr);
    gap: 20px;
-   padding: 15px;
+   padding: 20px;
    justify-content: center;
    align-items: center;
    max-width: 500px;
@@ -75,7 +73,7 @@ body {
  
  .Readings {
    position: relative;
-   top: 750px;
+   top: 530px;
    justify-content: center;
    align-items: center;
    max-width: 500px;
@@ -93,23 +91,17 @@ body {
 
  #Lucky {
   scale: 50%;
-  top: -200px;
+  top: -350px;
   position: relative;
   left: 500px;
  }
 
  #Lucky1 {
-  top: -1100px;
+  top: -1250px;
   scale: 50%;
   position: relative;
   right: 500px;
   transform: scaleX(-1);
- }
-
- @media (max-height: 1500px) {
-#homepage {
-    padding: 10px;
-  }
  }
 
  /* .grid-1 > div {

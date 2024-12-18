@@ -35,9 +35,48 @@ body {
   font-size: 50px;
 }
 
+.Luckys {
+  position: relative;
+}
+
 #Lucky1 {
   scale: 40%;
-  position: relative;
-  right: -750px;
-  top: -9300px;
+  position: absolute;
+  right: -500px;
+  top: -8800px;
+}
+
+#Lucky {
+  scale: 40%;
+  left: -650px;
+  top: -7200px;
+  position: absolute;
+}
+
+#Lucky3 {
+  scale: 40%;
+  position: absolute;
+  right: -500px;
+  top: -5800px;
+}
+
+#Lucky2 {
+  scale: 60%;
+  position: absolute;
+  left: -450px;
+  top: -4200px;
+}
+
+#Lucky4 {
+  scale: 40%;
+  position: absolute;
+  right: -450px;
+  top: -2800px;
+}
+
+#Lucky5 {
+  scale: 40%;
+  position: absolute;
+  left: -450px;
+  top: -1200px;
 }
