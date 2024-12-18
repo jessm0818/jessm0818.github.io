@@ -31,6 +31,10 @@ body {
      border-radius: 8px;
    }
 
+.Fp:hover {
+  transform: scale(1.05);
+}
+
 #Title {
   margin-top: 30px;
   font-size: 50px;
@@ -47,11 +51,19 @@ body {
   top: -8800px;
 }
 
+#Lucky1:hover {
+  transform: scale(1.05);
+}
+
 #Lucky {
   scale: 40%;
   left: -650px;
   top: -7200px;
   position: absolute;
+}
+
+#Lucky:hover {
+  transform: scale(1.05);
 }
 
 #Lucky3 {
@@ -61,11 +73,19 @@ body {
   top: -5800px;
 }
 
+#Lucky3:hover {
+  transform: scale(1.05);
+}
+
 #Lucky2 {
   scale: 60%;
   position: absolute;
   left: -450px;
   top: -4200px;
+}
+
+#Lucky2:hover {
+  transform: scale(1.05);
 }
 
 #Lucky4 {
@@ -75,9 +95,17 @@ body {
   top: -2800px;
 }
 
+#Lucky4:hover {
+  transform: scale(1.05);
+}
+
 #Lucky5 {
   scale: 40%;
   position: absolute;
   left: -450px;
   top: -1200px;
+}
+
+#Lucky5:hover {
+  transform: scale(1.05);
 }
